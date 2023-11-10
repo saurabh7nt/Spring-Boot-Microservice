@@ -1,6 +1,6 @@
 # Spring Boot Microservices Project
 
-This repository contains a Spring Boot microservices project that includes services for managing users, hotels, and ratings. The microservices architecture allows for modular development, scalability, and easy maintenance.
+This repository contains a Spring Boot microservices project that follows a microservices architecture. It includes services for managing users, hotels, and ratings, along with additional components such as Service Registry, Config Server, and API Gateway for enhanced functionality.
 
 ## Services
 
@@ -9,6 +9,14 @@ This repository contains a Spring Boot microservices project that includes servi
 2. **HotelService**: Handles hotel-related functionalities, including hotel information and management.
 
 3. **RatingService**: Manages user ratings for hotels, providing functionality to submit and retrieve ratings.
+
+## Additional Components
+
+- **Service Registry (Eureka)**: The Service Registry component helps in service discovery, allowing microservices to register and discover each other.
+
+- **Config Server**: Centralized configuration management using the Config Server ensures that configuration properties are externalized and can be dynamically updated without restarting the services.
+
+- **API Gateway**: The API Gateway acts as a gateway for all incoming requests, providing a single entry point for clients. It can handle authentication, routing, and load balancing.
 
 ## Database
 
